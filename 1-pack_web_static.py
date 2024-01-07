@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Fabric script that generates a .tgz archive from web_static"""
+"""Fabric script that generates a .tgz archive from the web_static"""
 import os
 from fabric.api import local
 import tarfile

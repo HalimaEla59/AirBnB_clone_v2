@@ -1,4 +1,4 @@
-#Task 0 but with puppet
+#Task 0 but with puppet.
 exec { '/usr/bin/env apt -y update' : }
 -> package { 'nginx':
   ensure => installed,
